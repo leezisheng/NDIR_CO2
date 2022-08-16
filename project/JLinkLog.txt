@@ -1,0 +1,128 @@
+T0764 000:190.293   SEGGER J-Link V7.22b Log File
+T0764 000:190.433   DLL Compiled: Jun 17 2021 17:22:49
+T0764 000:190.454   Logging started @ 2022-08-15 10:10
+T0764 000:190.471 - 190.479ms
+T0764 000:190.494 JLINK_SetWarnOutHandler(...)
+T0764 000:190.513 - 0.026ms
+T0764 000:190.530 JLINK_OpenEx(...)
+T0764 000:192.512   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T0764 000:193.031   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T0764 000:193.204   Decompressing FW timestamp took 115 us
+T0764 000:201.398   Hardware: V9.60
+T0764 000:201.477   S/N: 69650056
+T0764 000:201.548   OEM: SEGGER
+T0764 000:201.603   Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash
+T0764 000:203.377   TELNET listener socket opened on port 19021
+T0764 000:203.502   WEBSRV Starting webserver
+T0764 000:203.649   WEBSRV Webserver running on local port 19080
+T0764 000:203.677 - 13.156ms returns "O.K."
+T0764 000:203.706 JLINK_GetEmuCaps()
+T0764 000:203.724 - 0.025ms returns 0xB9FF7BBF
+T0764 000:203.746 JLINK_TIF_GetAvailable(...)
+T0764 000:204.261 - 0.530ms
+T0764 000:204.291 JLINK_SetErrorOutHandler(...)
+T0764 000:204.307 - 0.024ms
+T0764 000:204.351 JLINK_ExecCommand("ProjectFile = "F:\ADC_CO2\1ºÅ³ÌÐò(1)\project\JLinkSettings.ini"", ...). 
+T0764 000:212.696   Device "STM32F030C8" selected.
+T0764 000:213.290 - 8.954ms returns 0x00
+T0764 000:213.323 JLINK_ExecCommand("Device = STM32F100C8", ...). 
+T0764 000:213.506   Device "STM32F030C8" selected.
+T0764 000:214.287 - 0.970ms returns 0x00
+T0764 000:214.348 JLINK_GetHardwareVersion()
+T0764 000:214.385 - 0.056ms returns 96000
+T0764 000:214.424 JLINK_GetDLLVersion()
+T0764 000:214.461 - 0.054ms returns 72202
+T0764 000:214.499 JLINK_GetOEMString(...)
+T0764 000:214.538 JLINK_GetFirmwareString(...)
+T0764 000:214.583 - 0.063ms
+T0764 000:214.626 JLINK_GetDLLVersion()
+T0764 000:214.662 - 0.054ms returns 72202
+T0764 000:214.693 JLINK_GetCompileDateTime()
+T0764 000:214.711 - 0.025ms
+T0764 000:214.732 JLINK_GetFirmwareString(...)
+T0764 000:214.748 - 0.024ms
+T0764 000:214.765 JLINK_GetHardwareVersion()
+T0764 000:214.782 - 0.024ms returns 96000
+T0764 000:214.799 JLINK_GetSN()
+T0764 000:214.816 - 0.024ms returns 69650056
+T0764 000:214.834 JLINK_GetOEMString(...)
+T0764 000:214.860 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T0764 000:216.671 - 1.846ms returns 0x00
+T0764 000:216.731 JLINK_HasError()
+T0764 000:216.796 JLINK_SetSpeed(1000)
+T0764 000:217.249 - 0.467ms
+T0764 000:217.786 JLINK_HasError()
+T0764 000:217.814 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T0764 000:217.832 - 0.025ms returns JLINKARM_RESET_TYPE_NORMAL
+T0764 000:217.849 JLINK_Reset()
+T0764 000:218.375   InitTarget() start
+T0764 000:218.407    J-Link Script File: Executing InitTarget()
+T0764 000:232.131   ERROR: Device is permanently readprotected (RDP level 2).
+T0764 000:232.186   Failed to unlock device.
+T0764 000:232.888   Can not attach to CPU. Trying connect under reset.
+T0764 000:354.082   ERROR: Device is permanently readprotected (RDP level 2).
+T0764 000:354.208   Failed to unlock device.
+T0764 000:355.291   Connecting to CPU via connect under reset failed.
+T0764 000:407.689   InitTarget() end
+T0764 000:469.848   InitTarget() start
+T0764 000:469.962    J-Link Script File: Executing InitTarget()
+T0764 000:484.903   ERROR: Device is permanently readprotected (RDP level 2).
+T0764 000:484.951   Failed to unlock device.
+T0764 000:485.918   Can not attach to CPU. Trying connect under reset.
+T0764 000:604.946   ERROR: Device is permanently readprotected (RDP level 2).
+T0764 000:604.991   Failed to unlock device.
+T0764 000:605.676   Connecting to CPU via connect under reset failed.
+T0764 000:657.734   InitTarget() end
+T0764 000:657.778 - 439.937ms
+T0764 000:657.803 JLINK_GetId()
+T0764 000:658.152   InitTarget() start
+T0764 000:658.182    J-Link Script File: Executing InitTarget()
+T0764 000:670.723   ERROR: Device is permanently readprotected (RDP level 2).
+T0764 000:670.769   Failed to unlock device.
+T0764 000:671.428   Can not attach to CPU. Trying connect under reset.
+T0764 000:791.050   ERROR: Device is permanently readprotected (RDP level 2).
+T0764 000:791.155   Failed to unlock device.
+T0764 000:791.999   Connecting to CPU via connect under reset failed.
+T0764 000:845.576   InitTarget() end
+T0764 000:909.217   InitTarget() start
+T0764 000:909.331    J-Link Script File: Executing InitTarget()
+T0764 000:934.321   ERROR: Device is permanently readprotected (RDP level 2).
+T0764 000:934.398   Failed to unlock device.
+T0764 000:935.515   Can not attach to CPU. Trying connect under reset.
+T0764 001:059.313   ERROR: Device is permanently readprotected (RDP level 2).
+T0764 001:059.400   Failed to unlock device.
+T0764 001:060.557   Connecting to CPU via connect under reset failed.
+T0764 001:112.952   InitTarget() end
+T0764 001:113.003 - 455.208ms returns 0x00000000
+T0764 001:113.031 JLINK_GetId()
+T0764 001:113.567   InitTarget() start
+T0764 001:113.598    J-Link Script File: Executing InitTarget()
+T0764 001:136.335   ERROR: Device is permanently readprotected (RDP level 2).
+T0764 001:136.394   Failed to unlock device.
+T0764 001:137.570   Can not attach to CPU. Trying connect under reset.
+T0764 001:268.180   ERROR: Device is permanently readprotected (RDP level 2).
+T0764 001:268.236   Failed to unlock device.
+T0764 001:269.958   Connecting to CPU via connect under reset failed.
+T0764 001:323.057   InitTarget() end
+T0764 001:386.187   InitTarget() start
+T0764 001:386.276    J-Link Script File: Executing InitTarget()
+T0764 001:400.038   ERROR: Device is permanently readprotected (RDP level 2).
+T0764 001:400.088   Failed to unlock device.
+T0764 001:400.815   Can not attach to CPU. Trying connect under reset.
+T0764 001:536.559   ERROR: Device is permanently readprotected (RDP level 2).
+T0764 001:536.616   Failed to unlock device.
+T0764 001:538.740   Connecting to CPU via connect under reset failed.
+T0764 001:591.107   InitTarget() end
+T0764 001:591.197 - 478.184ms returns 0x00000000
+T0764 001:599.666 JLINK_GetFirmwareString(...)
+T0764 001:599.710 - 0.052ms
+T0764 004:672.154 JLINK_SWO_Control(JLINKARM_SWO_CMD_GET_SPEED_INFO, ...)
+T0764 004:672.592 - 0.458ms returns 0x00
+T0764 004:672.623 JLINK_SWO_Control(JLINKARM_SWO_CMD_GET_SPEED_INFO, ...)
+T0764 004:673.132 - 0.525ms returns 0x00
+T0764 004:673.404 JLINK_SWO_Control(JLINKARM_SWO_CMD_GET_SPEED_INFO, ...)
+T0764 004:673.949 - 0.561ms returns 0x00
+T0764 017:820.825 JLINK_Close()
+T0764 017:840.227 - 19.437ms
+T0764 017:840.271   
+T0764 017:840.287   Closed
