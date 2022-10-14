@@ -28,6 +28,7 @@
 .\objects\main.o: ..\Library\inc\stm32f10x_usart.h
 .\objects\main.o: ..\Library\inc\stm32f10x_wwdg.h
 .\objects\main.o: ..\Library\inc\misc.h
+.\objects\main.o: ..\User\main.h
 .\objects\main.o: ..\User\freq\freq.h
 .\objects\main.o: ..\User\uart\uart.h
 .\objects\main.o: D:\Lee\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
